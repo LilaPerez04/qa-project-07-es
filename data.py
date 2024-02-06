@@ -1,6 +1,6 @@
 # Variables con los valores de la página web a probar
 
-urban_routes_url = 'https://56ea1d82-3f3c-4bbb-897e-7d226ac762ea.serverhub.tripleten-services.com'
+urban_routes_url = 'https://89f88dea-fde4-4b1a-8379-319be99cd302.serverhub.tripleten-services.com'
 address_from = 'East 2nd Street, 601'
 address_to = '1300 1st St'
 phone_number = '+1 123 123 12 12'

@@ -4,28 +4,33 @@
 
 Escribe pruebas automatizadas que cubran el proceso completo de pedir un taxi. 
 A través de definir  los localizadores y métodos necesarios en la clase UrbanRoutesPage y las pruebas en la clase TestUrbanRoutes. 
-Las pruebas deben cubrir estas acciones:
+**Las pruebas deben cubrir estas acciones:**
 
-1.  **Configurar la dirección**
+1.  Configurar la dirección
     
-2.  **Seleccionar la tarifa Comfort**
+2.  Seleccionar la tarifa Comfort
  
-3.  **Rellenar el número de teléfono**
+3.  Rellenar el número de teléfono
 
-4. **Agregar una tarjeta de crédito. (Consejo: el botón 'link' (enlace) no se activa hasta que el campo CVV de la tarjeta en el modal 'Agregar una tarjeta', id="code" class="card-input", pierde el enfoque. Para cambiar el enfoque, puedes simular que el usuario o usuaria presiona TAB o hace clic en otro lugar de la pantalla). El repositorio tiene preparada la función retrieve_phone_code() que intercepta el código de confirmación requerido para agregar una tarjeta**
+4. Agregar una tarjeta de crédito. (Consejo: el botón 'link' (enlace) no se activa hasta que el campo CVV de la tarjeta en el modal 'Agregar una tarjeta', id="code" class="card-input", pierde el enfoque. Para cambiar el enfoque, puedes simular que el usuario o usuaria presiona TAB o hace clic en otro lugar de la pantalla). El repositorio tiene preparada la función retrieve_phone_code() que intercepta el código de confirmación requerido para agregar una tarjeta
 
-5. **Escribir un mensaje para el controlador**
+5. Escribir un mensaje para el controlador
 
-6. **Pedir una manta y pañuelos**
+6. Pedir una manta y pañuelos
 
-7. **Pedir 2 helados**
+7. Pedir 2 helados
 
-8. **Aparece el modal para buscar un taxi**
+8. Aparece el modal para buscar un taxi
 
-9. **Esperar a que aparezca la información del conductor en el modal (opcional). Además de los pasos anteriores, hay un paso opcional que puedes comprobar; este es un poco más complicado que los demás, pero es una buena práctica, ya que es probable que en tu trayectoria profesional encuentres tareas más difíciles**
+9. Esperar a que aparezca la información del conductor en el modal (opcional). Además de los pasos anteriores, hay un paso opcional que puedes comprobar; este es un poco más complicado que los demás, pero es una buena práctica, ya que es probable que en tu trayectoria profesional encuentres tareas más difíciles
 
 #### Servidor utilizado: 
-[enter link description here](https://56ea1d82-3f3c-4bbb-897e-7d226ac762ea.serverhub.tripleten-services.com)
+[servidor utilizado](https://56ea1d82-3f3c-4bbb-897e-7d226ac762ea.serverhub.tripleten-services.com)
+
+#### Configuración del proyecto y ejecución de las pruebas:
+1. Inicie un nuevo servidor para la aplicación Urban.Routes [iniciar servidor](https://tripleten.com/trainer/qa-engineer/lesson/a4f8f072-3399-4a23-9876-c68dfd025384/?tab=0)
+2. Escriba la URL del nuevo servidor en el archivo data.py, asignándola en la variable urban_routes_url
+3. Para ejecutar las pruebas escriba el código: pytest main.py, en la terminal de Pycharm 
 
 #### Técnicas y tecnologías utilizadas
 En el proyecto se utilizan diversas tecnologías y técnicas, incluyendo PyCharm, Pytest, Pytest en la terminal para ejecutar las pruebas, Github, Github Desktop, funciones en Python y Selenium. Aquí hay una breve descripción de cada una:
