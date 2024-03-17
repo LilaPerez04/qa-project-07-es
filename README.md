@@ -1,4 +1,4 @@
-> # Proyecto 7: Liliana Pérez, Cohort 6°
+> # Proyecto 7: Liliana Pérez
 
 #### Descripción del Proyecto: Pruebas para comprobar la funcionalidad de Urban Routes.
 
